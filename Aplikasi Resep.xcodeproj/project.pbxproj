@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D76B44217622BB00D3AE6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D76B43217622BB00D3AE6D /* AppDelegate.swift */; };
+		52D76B46217622BB00D3AE6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D76B45217622BB00D3AE6D /* ViewController.swift */; };
+		52D76B49217622BB00D3AE6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D76B47217622BB00D3AE6D /* Main.storyboard */; };
+		52D76B4B217622BC00D3AE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D76B4A217622BC00D3AE6D /* Assets.xcassets */; };
+		52D76B4E217622BC00D3AE6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D76B4C217622BC00D3AE6D /* LaunchScreen.storyboard */; };
+		52D76B59217622BC00D3AE6D /* Aplikasi_ResepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D76B58217622BC00D3AE6D /* Aplikasi_ResepTests.swift */; };
+		52D76B64217622BC00D3AE6D /* Aplikasi_ResepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D76B63217622BC00D3AE6D /* Aplikasi_ResepUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52D76B55217622BC00D3AE6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D76B38217622BB00D3AE6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D76B3F217622BB00D3AE6D;
+			remoteInfo = "Aplikasi Resep";
+		};
+		52D76B60217622BC00D3AE6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D76B38217622BB00D3AE6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D76B3F217622BB00D3AE6D;
+			remoteInfo = "Aplikasi Resep";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52D76B40217622BB00D3AE6D /* Aplikasi Resep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aplikasi Resep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D76B43217622BB00D3AE6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52D76B45217622BB00D3AE6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52D76B48217622BB00D3AE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52D76B4A217622BC00D3AE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D76B4D217622BC00D3AE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52D76B4F217622BC00D3AE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D76B54217622BC00D3AE6D /* Aplikasi ResepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aplikasi ResepTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D76B58217622BC00D3AE6D /* Aplikasi_ResepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aplikasi_ResepTests.swift; sourceTree = "<group>"; };
+		52D76B5A217622BC00D3AE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D76B5F217622BC00D3AE6D /* Aplikasi ResepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aplikasi ResepUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D76B63217622BC00D3AE6D /* Aplikasi_ResepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aplikasi_ResepUITests.swift; sourceTree = "<group>"; };
+		52D76B65217622BC00D3AE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D76B3D217622BB00D3AE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D76B51217622BC00D3AE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D76B5C217622BC00D3AE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52D76B37217622BB00D3AE6D = {
+			isa = PBXGroup;
+			children = (
+				52D76B42217622BB00D3AE6D /* Aplikasi Resep */,
+				52D76B57217622BC00D3AE6D /* Aplikasi ResepTests */,
+				52D76B62217622BC00D3AE6D /* Aplikasi ResepUITests */,
+				52D76B41217622BB00D3AE6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52D76B41217622BB00D3AE6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D76B40217622BB00D3AE6D /* Aplikasi Resep.app */,
+				52D76B54217622BC00D3AE6D /* Aplikasi ResepTests.xctest */,
+				52D76B5F217622BC00D3AE6D /* Aplikasi ResepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D76B42217622BB00D3AE6D /* Aplikasi Resep */ = {
+			isa = PBXGroup;
+			children = (
+				52D76B43217622BB00D3AE6D /* AppDelegate.swift */,
+				52D76B45217622BB00D3AE6D /* ViewController.swift */,
+				52D76B47217622BB00D3AE6D /* Main.storyboard */,
+				52D76B4A217622BC00D3AE6D /* Assets.xcassets */,
+				52D76B4C217622BC00D3AE6D /* LaunchScreen.storyboard */,
+				52D76B4F217622BC00D3AE6D /* Info.plist */,
+			);
+			path = "Aplikasi Resep";
+			sourceTree = "<group>";
+		};
+		52D76B57217622BC00D3AE6D /* Aplikasi ResepTests */ = {
+			isa = PBXGroup;
+			children = (
+				52D76B58217622BC00D3AE6D /* Aplikasi_ResepTests.swift */,
+				52D76B5A217622BC00D3AE6D /* Info.plist */,
+			);
+			path = "Aplikasi ResepTests";
+			sourceTree = "<group>";
+		};
+		52D76B62217622BC00D3AE6D /* Aplikasi ResepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52D76B63217622BC00D3AE6D /* Aplikasi_ResepUITests.swift */,
+				52D76B65217622BC00D3AE6D /* Info.plist */,
+			);
+			path = "Aplikasi ResepUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D76B3F217622BB00D3AE6D /* Aplikasi Resep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D76B68217622BC00D3AE6D /* Build configuration list for PBXNativeTarget "Aplikasi Resep" */;
+			buildPhases = (
+				52D76B3C217622BB00D3AE6D /* Sources */,
+				52D76B3D217622BB00D3AE6D /* Frameworks */,
+				52D76B3E217622BB00D3AE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aplikasi Resep";
+			productName = "Aplikasi Resep";
+			productReference = 52D76B40217622BB00D3AE6D /* Aplikasi Resep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52D76B53217622BC00D3AE6D /* Aplikasi ResepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D76B6B217622BC00D3AE6D /* Build configuration list for PBXNativeTarget "Aplikasi ResepTests" */;
+			buildPhases = (
+				52D76B50217622BC00D3AE6D /* Sources */,
+				52D76B51217622BC00D3AE6D /* Frameworks */,
+				52D76B52217622BC00D3AE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D76B56217622BC00D3AE6D /* PBXTargetDependency */,
+			);
+			name = "Aplikasi ResepTests";
+			productName = "Aplikasi ResepTests";
+			productReference = 52D76B54217622BC00D3AE6D /* Aplikasi ResepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52D76B5E217622BC00D3AE6D /* Aplikasi ResepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D76B6E217622BC00D3AE6D /* Build configuration list for PBXNativeTarget "Aplikasi ResepUITests" */;
+			buildPhases = (
+				52D76B5B217622BC00D3AE6D /* Sources */,
+				52D76B5C217622BC00D3AE6D /* Frameworks */,
+				52D76B5D217622BC00D3AE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D76B61217622BC00D3AE6D /* PBXTargetDependency */,
+			);
+			name = "Aplikasi ResepUITests";
+			productName = "Aplikasi ResepUITests";
+			productReference = 52D76B5F217622BC00D3AE6D /* Aplikasi ResepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D76B38217622BB00D3AE6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Mubs;
+				TargetAttributes = {
+					52D76B3F217622BB00D3AE6D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					52D76B53217622BC00D3AE6D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 52D76B3F217622BB00D3AE6D;
+					};
+					52D76B5E217622BC00D3AE6D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 52D76B3F217622BB00D3AE6D;
+					};
+				};
+			};
+			buildConfigurationList = 52D76B3B217622BB00D3AE6D /* Build configuration list for PBXProject "Aplikasi Resep" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D76B37217622BB00D3AE6D;
+			productRefGroup = 52D76B41217622BB00D3AE6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D76B3F217622BB00D3AE6D /* Aplikasi Resep */,
+				52D76B53217622BC00D3AE6D /* Aplikasi ResepTests */,
+				52D76B5E217622BC00D3AE6D /* Aplikasi ResepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D76B3E217622BB00D3AE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D76B4E217622BC00D3AE6D /* LaunchScreen.storyboard in Resources */,
+				52D76B4B217622BC00D3AE6D /* Assets.xcassets in Resources */,
+				52D76B49217622BB00D3AE6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D76B52217622BC00D3AE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D76B5D217622BC00D3AE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D76B3C217622BB00D3AE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D76B46217622BB00D3AE6D /* ViewController.swift in Sources */,
+				52D76B44217622BB00D3AE6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D76B50217622BC00D3AE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D76B59217622BC00D3AE6D /* Aplikasi_ResepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D76B5B217622BC00D3AE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D76B64217622BC00D3AE6D /* Aplikasi_ResepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52D76B56217622BC00D3AE6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D76B3F217622BB00D3AE6D /* Aplikasi Resep */;
+			targetProxy = 52D76B55217622BC00D3AE6D /* PBXContainerItemProxy */;
+		};
+		52D76B61217622BC00D3AE6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D76B3F217622BB00D3AE6D /* Aplikasi Resep */;
+			targetProxy = 52D76B60217622BC00D3AE6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52D76B47217622BB00D3AE6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D76B48217622BB00D3AE6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52D76B4C217622BC00D3AE6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D76B4D217622BC00D3AE6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52D76B66217622BC00D3AE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52D76B67217622BC00D3AE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D76B69217622BC00D3AE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aplikasi Resep/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Aplikasi-Resep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52D76B6A217622BC00D3AE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aplikasi Resep/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Aplikasi-Resep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52D76B6C217622BC00D3AE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aplikasi ResepTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Aplikasi-ResepTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aplikasi Resep.app/Aplikasi Resep";
+			};
+			name = Debug;
+		};
+		52D76B6D217622BC00D3AE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aplikasi ResepTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Aplikasi-ResepTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aplikasi Resep.app/Aplikasi Resep";
+			};
+			name = Release;
+		};
+		52D76B6F217622BC00D3AE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aplikasi ResepUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Aplikasi-ResepUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aplikasi Resep";
+			};
+			name = Debug;
+		};
+		52D76B70217622BC00D3AE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aplikasi ResepUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Aplikasi-ResepUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aplikasi Resep";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D76B3B217622BB00D3AE6D /* Build configuration list for PBXProject "Aplikasi Resep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D76B66217622BC00D3AE6D /* Debug */,
+				52D76B67217622BC00D3AE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D76B68217622BC00D3AE6D /* Build configuration list for PBXNativeTarget "Aplikasi Resep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D76B69217622BC00D3AE6D /* Debug */,
+				52D76B6A217622BC00D3AE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D76B6B217622BC00D3AE6D /* Build configuration list for PBXNativeTarget "Aplikasi ResepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D76B6C217622BC00D3AE6D /* Debug */,
+				52D76B6D217622BC00D3AE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D76B6E217622BC00D3AE6D /* Build configuration list for PBXNativeTarget "Aplikasi ResepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D76B6F217622BC00D3AE6D /* Debug */,
+				52D76B70217622BC00D3AE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D76B38217622BB00D3AE6D /* Project object */;
+}
